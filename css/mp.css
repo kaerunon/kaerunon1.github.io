@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/mp\(1\).png); /* 画像 */
+    background-color: #7fc7ed;            /* 背景色 */
+    background-repeat: no-repeat;
+/*    background-size: cover;               /* 全画面 */
+    background-attachment: fixed;         /* 固定 */
+    background-position: center center;   /* 縦横中央 */
+ }
